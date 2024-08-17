@@ -64,7 +64,7 @@ Enable SSH under “Advanced” it will ask you to set a password.
 - Go to the “PON” tab, if your settings are correct, you will see “O5” under the GPON Status.
 
 - Now navigate to the “VLAN Settings” tab
-- Make note of the VID number that you get. This is our VLAN number.
+    - Make note of the VID number that you get. This is our VLAN number.
 
 ![alt text](image-5.png)
 
