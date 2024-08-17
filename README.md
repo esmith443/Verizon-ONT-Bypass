@@ -6,7 +6,7 @@
 
 For programming I used a PCIE Mellanox ConnectX-2 but any media converter or compatible switch should work fine. 
 
-# Steps
+# ONU Setup
 - I started out by plugging in the UNO into my connectx-2 for programming. I manually set the NIC to 192.168.1.10/24 leaving the gateway section blank. 
 - ![alt text](<1.jpg>)
 
@@ -31,6 +31,7 @@ flash set OMCI_FAKE_OK 1
 - Going back to the GUI. Go to the “Commit/Reboot” tab and press “Commit and Reboot”
 ![alt text](image-3.png)
 - Give the ONU a few minutes.
+# UDM Pro Setup
 - You can now remove the ONU from the Media converter, Connectx-2 or switch and plug the ONU into the UDM PRO.
     - For this next step we need to enable SSH on the UDM PRO
     - ![alt text](image-4.png)
