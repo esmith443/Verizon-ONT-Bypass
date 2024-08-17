@@ -21,7 +21,10 @@ For programming I used a PCIE Mellanox ConnectX-2 but any media converter or com
     - Mine started with “ALCLF”
     - ![alt text](image-2.png)
 - Leave “LOID”, “LOID Password” and “PLOAM Password” Blank. If there is something in the field clear it out.
-- Now press BOTH “Apply Changes” on the page.
+
+> [!IMPORTANT]
+> Now press BOTH “Apply Changes” on the page.
+
 - Open Putty and SSH into the ONU at 192.168.1.1
 - Log in with the same Username and Password and run this command.
 ```
@@ -62,5 +65,6 @@ Enable SSH under “Advanced” it will ask you to set a password.
     - ![alt text](image-7.png)
 - You should now have internet access. Congratulations 😎
 
-> Once you enter the VLAN Number in Unifi you will lose access to the ONU.
-If you need access again, disable the VLAN ID on the wan port and rerun the above UDM PRO command 
+> [!NOTE]
+>  Once you enter the VLAN Number in Unifi you will lose access to the ONU.
+> If you need access again, disable the VLAN ID on the wan port and rerun the above UDM PRO command 
