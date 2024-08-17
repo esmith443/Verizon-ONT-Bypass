@@ -8,7 +8,7 @@ For programming I used a PCIE Mellanox ConnectX-2 but any media converter or com
 
 # Steps
 - I started out by plugging in the UNO into my connectx-2 for programming. I manually set the NIC to 192.168.1.10/24 leaving the gateway section blank. 
-- ![alt text](<UDM PRO ONU-1.png>)
+- ![alt text](<0.jpg>)
 
 - You will know when the UNO is up and running when NIC shows a status of “Unidentified Network”. If the UNO does not come up within 5 minutes, you can try disabling and re-enabling the NIC.
     - ![alt text](image.png)
