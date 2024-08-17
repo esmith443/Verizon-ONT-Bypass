@@ -28,8 +28,7 @@ For programming I used a PCIE Mellanox ConnectX-2 but any media converter or com
 flash set OMCI_FAKE_OK 1
 ```
 - You can now exit putty.
-- Going back to the GUI 
-- Go to the “Commit/Reboot” tab and press “Commit and Reboot”
+- Going back to the GUI. Go to the “Commit/Reboot” tab and press “Commit and Reboot”
 ![alt text](image-3.png)
 - Give the ONU a few minutes.
 - You can now remove the ONU from the Media converter, Connectx-2 or switch and plug the ONU into the UDM PRO.
@@ -40,7 +39,6 @@ Enable SSH under “Advanced” it will ask you to set a password.
 - Now open putty and go to the IP address of the UDM PRO (Your gateway IP)
     - Username: root 
     - Password is the password you set in settings.
-
 
 - You will need to run this command in the UDM PRO console.
     ```
