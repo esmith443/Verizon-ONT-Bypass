@@ -24,7 +24,9 @@ For programming I used a PCIE Mellanox ConnectX-2 but any media converter or com
 - Now press BOTH “Apply Changes” on the page.
 - Open Putty and SSH into the ONU at 192.168.1.1
 - Log in with the same Username and Password and run this command.
+```
 flash set OMCI_FAKE_OK 1
+```
 - You can now exit putty.
 - Going back to the GUI 
 - Go to the “Commit/Reboot” tab and press “Commit and Reboot”
