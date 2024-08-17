@@ -31,14 +31,6 @@ flash set OMCI_FAKE_OK 1
 ![alt text](image-3.png)
 - Give the ONU a few minutes.
 - You can now remove the ONU from the Media converter, Connectx-2 or switch and plug the ONU into the UDM PRO.
-
-
-
-
-
-
-
-
     - For this next step we need to enable SSH on the UDM PRO
     - ![alt text](image-4.png)
 - Under the ”Control Plane” tab in Unifi, navigate to ”Console Settings”
