@@ -3,7 +3,7 @@
 
 Verizon ONT: I-211M-K
 
-ONU: LL-XS2510
+ISZO ONU: LL-XS2510
 
 ![alt text](<IMGs/0.jpg>)
 > I used [this](https://hack-gpon.org/ont-odi-realtek-dfp-34x-2c2/) as reference
