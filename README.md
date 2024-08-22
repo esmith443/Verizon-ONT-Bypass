@@ -1,6 +1,14 @@
 # Setup
 [Unifi UDM Pro using Iszo APC XPON UNO on Verizon FiOS GPON](https://www.amazon.com/iszo-Support-Modify-Network-Converter/dp/B0BZPZNKJ6) 
 
+
+> [!IMPORTANT]
+> It is a 50/50 chance amazon will send you a SC/APC or SC/UPC Iszo ONU. (For verizon FiOS you want SC/APC)
+> 
+> You can tell if the ONU is SC/APC if the little handle on the ONU is Green. If it is Blue your ONU is SC/UPC.
+> 
+> Both units will work, but if you have a SC/UPC (blue) ONU you will need an adapter [Link](https://www.amazon.com/dp/B0B51TKMMK?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
 Verizon ONT: I-211M-K
 
 ISZO ONU: LL-XS2510
