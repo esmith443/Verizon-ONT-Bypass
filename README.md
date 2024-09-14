@@ -68,7 +68,9 @@ Enable SSH under “Advanced” it will ask you to set a password.
 
 - You will need to run this command in the UDM PRO console.
     ```
-    ip addr add dev eth9 local 192.168.1.100/24 iptables -t nat -A POSTROUTING -o eth9 -d 192.168.1.0/24 -j SNAT --to 192.168.100
+    ip addr add dev eth9 local 192.168.1.100/24
+    
+    iptables -t nat -A POSTROUTING -o eth9 -d 192.168.1.0/24 -j SNAT --to 192.168.100
     ```
 ### Finding the VLAN
 - You may now plug in the fiber.
