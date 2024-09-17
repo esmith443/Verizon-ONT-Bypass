@@ -70,7 +70,7 @@ Enable SSH under “Advanced” it will ask you to set a password.
     ```
     ip addr add dev eth9 local 192.168.1.100/24
     
-    iptables -t nat -A POSTROUTING -o eth9 -d 192.168.1.0/24 -j SNAT --to 192.168.100
+    iptables -t nat -A POSTROUTING -o eth9 -d 192.168.1.0/24 -j SNAT --to 192.168.1.100
     ```
 ### Finding the VLAN
 - You may now plug in the fiber.
