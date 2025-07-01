@@ -67,6 +67,10 @@ Enable SSH under “Advanced” it will ask you to set a password.
     - Password is the password you set in settings.
 
 - You will need to run this command in the UDM PRO console.
+> [!IMPORTANT]
+> This part only works if your lan network is not a 192.168.1.X subnet. If it is, you will need to set the IP address of the ONU to a subnet that does not exist in your network (192.168.2.1)
+> You will also then need to subsitue 192.168.1.100 and 192.168.1.0 to 192.168.2.100 and 192.168.2.0 for the below command.
+
     ```
     ip addr add dev eth9 local 192.168.1.100/24
     
