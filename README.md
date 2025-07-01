@@ -66,7 +66,7 @@ Enable SSH under “Advanced” it will ask you to set a password.
     - Username: root 
     - Password is the password you set in settings.
 
-- You will need to run this command in the UDM PRO console.
+
 > [!IMPORTANT]
 > This part only works if your lan network is not a 192.168.1.X subnet. 
 >
@@ -74,11 +74,14 @@ Enable SSH under “Advanced” it will ask you to set a password.
 >
 > You will also then need to subsitue 192.168.1.100 and 192.168.1.0 to 192.168.2.100 and 192.168.2.0 for the below command.
 
+- You will need to run this command in the UDM PRO console.
+
     ```
     ip addr add dev eth9 local 192.168.1.100/24
     
     iptables -t nat -A POSTROUTING -o eth9 -d 192.168.1.0/24 -j SNAT --to 192.168.1.100
     ```
+
 ### Finding the VLAN
 - You may now plug in the fiber.
 - Navigate to the 192.168.1.1 address of the ONU.
