@@ -89,6 +89,10 @@ Enable SSH under “Advanced” it will ask you to set a password.
 
 - Now navigate to the “VLAN Settings” tab
     - Make note of the VID number that you get. This is our VLAN number.
+    - or SSH to the ONU and run the command below, then look for the VID
+  ```
+    omcicli mib get 84
+  ```
 
 ![alt text](IMGs/image-5.png)
 
